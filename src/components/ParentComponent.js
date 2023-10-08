@@ -2,6 +2,7 @@ import React from 'react';
 import SearchBar from './SearchBar';
 import MemberList from './MemberList';
 import Buttons from './Buttons';
+import '../stylesheets/ParentComponent.css';
 
 const ParentComponent = () => {
     return (
