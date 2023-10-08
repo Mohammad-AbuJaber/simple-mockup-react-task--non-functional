@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faSearch} from '@fortawesome/free-solid-svg-icons';
+import '../stylesheets/SearchBar.css';
 
 const SearchBar = () => {
     const [isFocused, setIsFocused] = useState(false);
