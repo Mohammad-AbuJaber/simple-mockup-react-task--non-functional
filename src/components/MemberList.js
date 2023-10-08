@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {faUser} from "@fortawesome/free-solid-svg-icons";
+import '../stylesheets/MemberList.css';
 
 const MemberList = () => {
     const [isChecked, setIsChecked] = useState([]);
