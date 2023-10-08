@@ -1,0 +1,63 @@
+.member-list {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+}
+
+.member-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 3px;
+    border: 1px solid #ccc;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.user-icon {
+    font-size: 1rem;
+    margin-right: 10px;
+}
+
+.member-info {
+    display: flex;
+    align-items: center;
+}
+
+.member-name {
+    margin-right: 10px;
+}
+
+.member-checkbox {
+    margin-left: auto;
+    position: relative;
+}
+
+.member-checkbox input {
+    display: none;
+}
+
+.member-checkbox label {
+    content: '';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    position: relative;
+    top: 3px;
+}
+
+.member-checkbox input:checked + label {
+    border-color: #96cc61;
+    border-width: 3px;
+}
+
+.member-checkbox input:checked + label::after {
+    content: '\2714';
+    color: #96cc61;
+    font-size: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
